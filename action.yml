@@ -1,3 +1,9 @@
 name: "Open a Github Issue (Testing)"
 author: Ali Alaa
 description: "Opens a github issue"
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
